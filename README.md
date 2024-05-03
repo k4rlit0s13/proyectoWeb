@@ -1,0 +1,1 @@
+Este programa corre en pc, disponible hasta un formato de media pagina a escala de la pc(pantalla dividida, menos a eso se romperá, no fue creada para moviles) tiene un nivel de responsive moderado.
