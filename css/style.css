@@ -194,27 +194,32 @@
 }
 .FoodMenu__title h1{
     font-family: poppinsMedium;
-    color: var(--color-3);
+    color: var(--color-1);
     font-size: 3rem;
 }
 .FoodMenu__category{
-    background-color: blue;
+    /* background-color: blue; */
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 30px;
+    gap: 40px;
 
-    gap: 30px;
 }
 .FoodMenu__category__box{
+    background-color: var(--color-4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .FoodMenu__category__box img{
     width: 100%;
+}
+.FoodMenu__category__boxcar{
+    background-color: var(--color-3);
 }
 
 
