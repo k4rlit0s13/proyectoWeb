@@ -79,7 +79,6 @@
 }
 .Home__img{
     /* background-color: blue; */
-
     width: 50%;
     padding: 40px;
 }
@@ -88,14 +87,11 @@
 }
 .Home__title h1{
     font-family: "poppinsBold";
-    font-size: 6vw;
-    line-height: 85px;
     color: var(--color-3);
+    font-size: 3rem;
 }
 .Home__title h3{
     font-family: "poppinsRegular";
-    line-height: 6vh;
-    font-size: 3vw;
 }
 .Home__title a{
     text-decoration: none;
@@ -174,12 +170,17 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 30px;
+
+    gap: 30px;
 }
 .FoodMenu__category__box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.FoodMenu__category__box img{
+    width: 100%;
 }
 
 
