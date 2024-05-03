@@ -221,6 +221,9 @@
 .FoodMenu__category__boxcar{
     background-color: var(--color-3);
 }
+.FoodMenu__category__box{
+    color: var(--color-2);
+}
 
 
 
@@ -235,7 +238,7 @@
 
 
 .Services{
-    background-color: red;
+    /* background-color: red; */
 
     margin: 20vh; 
 
@@ -245,7 +248,7 @@
     align-items: center;
 }
 .Services__title{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,7 +260,7 @@
     /* font-size: 5vw; */
 }
 .Services__list{
-    background-color: violet;
+    /* background-color: violet; */
 
     width: 100%;
 
@@ -267,7 +270,7 @@
     align-items: center;
 }
 .Services__list__box{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     
 
     display: flex;
@@ -279,7 +282,7 @@
     /* width: 20vw; */
 }
 .Services__list__box div img{
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 100%;
     padding: 30px;
 }
@@ -310,7 +313,7 @@
 
 
 .message{
-    background-color: red;
+    /* background-color: red; */
 
     display: flex;
     flex-direction: column;
@@ -361,7 +364,7 @@
 
 }
 .footer__section{
-    background-color: red;
+    /* background-color: red; */
 
     margin-bottom: 10vh;
 
@@ -378,4 +381,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 10px;
+}
+.footer__section__box__icons a{
+    background-color: var(--color-3);
+    padding: 5px;
+    border-radius: 100%;
 }
