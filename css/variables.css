@@ -1,0 +1,9 @@
+:root{
+    --color-1:#FFF;
+    --color-2:#1e1d2b;
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
