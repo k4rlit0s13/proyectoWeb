@@ -59,10 +59,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    
+    margin-top: 5vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
 .Home__title{
     /* background-color: yellowgreen; */
@@ -113,6 +113,8 @@
 .AboutUs{
     background-color: red;
 
+    margin: 20vh; 
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -149,8 +151,8 @@
 .FoodMenu{
     background-color: red;
 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 20vh;
+
     display: flex;
     flex-direction: column;
 }
@@ -194,6 +196,9 @@
 
 .Services{
     background-color: red;
+
+    margin: 20vh; 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,7 +214,7 @@
 .Services__title div span{
 }
 .Services__title div h1{
-    font-size: 5vw;
+    /* font-size: 5vw; */
 }
 .Services__list{
     background-color: violet;
@@ -234,16 +239,17 @@
     /* width: 20vw; */
 }
 .Services__list__box div img{
+    background-color: bisque;
     width: 100%;
     padding: 30px;
 }
 .Services__list__box div h3{
     text-align: center;
-    font-size: 3vw;
+    /* font-size: 3vw; */
 }
 .Services__list__box div p{
     text-align: center;
-    font-size: 3vw;
+    /* font-size: 3vw; */
 }
 
 
@@ -315,6 +321,21 @@
 
 }
 .footer__section{
+    background-color: red;
+
+    margin-bottom: 10vh;
+
+
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer__section__box{
+    display: flex;
+    flex-direction: column;
+}
+.footer__section__box__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
