@@ -5,11 +5,78 @@
     padding: 0;
     box-sizing: border-box;
  }
- 
+
  body{
 
     background-color: var(--color-2);
 
-    color: white;
+    color: var(--color-1);
  }
 
+.header{
+    /* background-color: red; */
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header__pagename{
+    /* background-color: yellowgreen; */
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+}
+.header__pagename h2{
+    font-family: "poppinsBold";
+    color: var(--color-3);
+}
+.header__options{
+    /* background-color: blue; */
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header__options a{
+    font-family: "poppinsRegular";
+}
+
+
+.Home{
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Home__title{
+    background-color: yellowgreen;
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.Home__img{
+    background-color: blue;
+
+    width: 50%;
+}
+.Home__img img{
+    width: 100%;
+}
