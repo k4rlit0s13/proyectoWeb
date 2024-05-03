@@ -340,8 +340,18 @@
 .message__block div h1{
     font-size: 5vw;
     text-align: center;
+    color: var(--color-2);
+    font-family: "poppinsRegular";
 }
-
+.message__block div a{
+    text-decoration: none;
+    font-family: "poppinsRegular";
+    color: var(--color-1);
+    
+    background-color: var(--color-3);
+    padding: 15px;
+    border-radius: 15px;
+}
 
 
 
