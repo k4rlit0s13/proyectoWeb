@@ -56,6 +56,66 @@
 .header_botton_options{
 
 }
+.header_botton_options img:hover{
+    background-color: var(--color-3);
+    border-radius: 5px
+}
+
+
+
+
+.popup{
+
+    /* background-color: orange; */
+
+    width: 100%;
+    height: 685%;
+    position: absolute;
+    z-index: 1;
+
+    background-color: #000000a2;
+}
+.popup ul{
+    /* background-color: red; */
+    
+    padding: 40px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+
+    gap: 30px;
+}
+
+.popup li {
+    
+    background-color: var(--color-2);
+
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+
+    text-align: center;
+    font-family: "poppinsRegular";
+
+
+}
+
+.popup li:hover {
+    background-color:var(--color-3);
+}
+
+
+
+
+
+
+
+
 
 .Home{
     /* background-color: red; */
@@ -101,7 +161,7 @@
 }
 .Home__img{
     /* background-color: blue; */
-    width: 50%;
+    /* width: 50%; */
     padding: 40px;
 }
 .Home__img img{
@@ -117,52 +177,59 @@
 .AboutUs{
     /* background-color: red; */
 
-    margin: 20vh; 
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.AboutUs__img{
-    /* background-color: blue; */
-    width: 50%;
-}
-.AboutUs__img img{
-    width: 100%;
-}
-.AboutUs__info{
-    /* background-color: yellowgreen; */
-    width: 50%;
+    padding: 30px;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
 
-    gap: 50px;
+    gap: 40px;
+}
+.AboutUs__info{
+    /* background-color: yellowgreen; */
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+}
+.AboutUs__info__botton{
+    background-color: var(--color-3);
+    padding: 15px;
+    border-radius: 15px;
+    
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .AboutUs__info a{
     text-decoration: none;
     font-family: "poppinsRegular";
     color: var(--color-1);
-    
-    background-color: var(--color-3);
-    padding: 15px;
-    border-radius: 15px;
 }
-.AboutUs__info span{
-    font-family: poppinsMedium;
+.AboutUs__info h2{
+    font-family: "poppinsMedium";
     color: var(--color-3);
     font-size: 1.5rem
 }
 .AboutUs__info h1{
     font-family: poppinsBold;
     color: var(--color-1);
-    font-size: 3rem
+    font-size: 2rem
 }
 .AboutUs__info p{
     font-family: poppinsRegular;
     color: var(--color-1);
-    font-size: 1.5rem
+    font-size: 1rem
+}
+.AboutUs__img{
+    /* background-color: blue; */
+    /* width: 50%; */
+}
+.AboutUs__img img{
+    width: 100%;
 }
 
 
@@ -178,11 +245,15 @@
 
 .FoodMenu{
     /* background-color: red; */
-
-    margin: 20vh;
+    padding: 30px;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 30px;
 }
 .FoodMenu__title{
     /* background-color: violet; */
@@ -191,25 +262,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    gap: 30px;
+}
+.FoodMenu__title h1{
+    font-family: poppinsMedium;
+    color: var(--color-1);
+    font-size: 2rem;
 }
 .FoodMenu__title h3{
     font-family: poppinsMedium;
     color: var(--color-3);
     font-size: 1.5rem;
 }
-.FoodMenu__title h1{
-    font-family: poppinsMedium;
-    color: var(--color-1);
-    font-size: 3rem;
-}
 .FoodMenu__category{
     /* background-color: blue; */
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    padding: 30px;
-    gap: 40px;
+
+    gap: 30px;
 
 }
 .FoodMenu__category__box{
@@ -219,12 +292,22 @@
     justify-content: center;
     align-items: center;
 
+    gap: 5px;
+
+    border-radius: 20px;
+    padding-bottom: 30px;
 }
 .FoodMenu__category__box img{
-    width: 100%;
+    width: 80%;
 }
 .FoodMenu__category__boxcar{
     background-color: var(--color-3);
+
+    position: relative;
+    left: 100px;
+}
+.FoodMenu__category__boxcar img{
+    height: 50px;
 }
 .FoodMenu__category__box{
     color: var(--color-2);
@@ -243,14 +326,14 @@
 .Services{
     /* background-color: red; */
 
-    margin: 20vh; 
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    font-family: poppinsRegular;
+    text-align: center;
+    padding: 30px;
+
 }
 .Services__title{
     /* background-color: blue; */
@@ -258,46 +341,48 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    gap: 30px;
 }
-.Services__title div span{
+.Services__title h3{
+    font-family: "poppinsRegular";
+    color: var(--color-3);
 }
-.Services__title div h1{
-    /* font-size: 5vw; */
+.Services__title h1{
+    font-family: "poppinsRegular";
+    font-size: 2.5rem;
 }
 .Services__list{
     /* background-color: violet; */
 
-    width: 100%;
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .Services__list__box{
     /* background-color: yellowgreen; */
-    
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.Services__list__box__img{
-    /* width: 20vw; */
-}
-.Services__list__box div img{
+.Services__list__box img{
     /* background-color: bisque; */
-    width: 100%;
+    width: 50%;
     padding: 30px;
 }
-.Services__list__box div h3{
+.Services__list__box h3{
     text-align: center;
     /* font-size: 3vw; */
+    font-family: "poppinsRegular";
+    color: var(--color-3);
 }
-.Services__list__box div p{
+.Services__list__box p{
     text-align: center;
     /* font-size: 3vw; */
+    font-family: "poppinsRegular";
 }
 
 
@@ -314,12 +399,12 @@
 .message{
     /* background-color: red; */
 
+    background-color: var(--color-4);
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    margin-top: 30vh;
-    margin-bottom: 30vh;
+    margin: 30px;
     padding: 60px;
 
 }
@@ -332,21 +417,20 @@
     justify-content: center;
     align-items: center;
 
-    padding: 60px;
-
     gap: 30px;
 }
-.message__block div h1{
-    font-size: 5vw;
+.message__block h1{
+    font-size: 4vw;
     text-align: center;
     color: var(--color-2);
     font-family: "poppinsRegular";
 }
-.message__block div a{
+.message__block a{
     text-decoration: none;
     font-family: "poppinsRegular";
     color: var(--color-1);
-    
+}
+.message__block__botton{
     background-color: var(--color-3);
     padding: 15px;
     border-radius: 15px;
@@ -360,21 +444,59 @@
 
 
 .footer{
+    display: flex;
+    flex-direction: column;
 
+    margin: 60px;
+
+    gap: 30px;
 }
 .footer__section{
     /* background-color: red; */
 
-    margin-bottom: 10vh;
-
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    gap: 30px;
+}
+.footer__section__box h2{
+    font-family: "poppinsMedium";
+}
+.rectangle{
+    height: 2px;
+    width: 70px;
+    background-color: var(--color-3);
+}
+.footer__section__box small{
+    font-family: "poppinsRegular";
 }
 .footer__section__box{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+
+
+
+.footer__contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+}
+.footer__contactUs__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.footer__contactUs__title h2{
+    font-size: 2rem;
 }
 .footer__section__box__icons{
     display: flex;
@@ -387,6 +509,9 @@
     padding: 5px;
     border-radius: 100%;
 }
+.footer__contactUs h2{
+    font-family: "poppinsMedium";
+}
 
 
 
@@ -396,6 +521,13 @@
 
 
 
+
+
+
+
+@media(min-width: 768px){
+
+}
 
 
 
