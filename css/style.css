@@ -529,10 +529,68 @@
 
 @media(min-width: 1024px){
 
+    .header{
+        /* background-color: red; */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header__pagename{
+        /* background-color: yellowgreen; */
+    
+        width: 50%;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    .header__pagename h2{
+        font-family: "poppinsBold";
+        color: var(--color-3);
+    }
+    .header__options{
+        /* display: none; */
+    
+        /* background-color: blue; */
+    
+        width: 50%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .header__options a{
+        font-family: "poppinsRegular";
+        text-decoration: none;
+        color: var(--color-1);
+    }
+    .header_botton_options{
+        display: none;
+    }
+    .header_botton_options img:hover{
+        background-color: var(--color-3);
+        border-radius: 5px
+    }
+    
 
+
+
+
+
+
+    
     .popup{
         display: none;
     }
+
+
+
+
 
 
 
