@@ -530,7 +530,7 @@
 @media(min-width: 1024px){
 
     .header{
-        /* background-color: red; */
+        background-color: var(--color-2);
     
         display: flex;
         flex-direction: row;
@@ -660,7 +660,7 @@
         padding: 30px;
     
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
         
